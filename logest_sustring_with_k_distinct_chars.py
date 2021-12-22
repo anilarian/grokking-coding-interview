@@ -45,13 +45,14 @@ def longest_substring_with_k_distinct(s: str, k: int) -> int:
 
     return max_length
 
+
 def main():
-  print("Length of the longest substring: "
-           + str(longest_substring_with_k_distinct("araaci", 2)))
-  print("Length of the longest substring: "
-           + str(longest_substring_with_k_distinct("araaci", 1)))
-  print("Length of the longest substring: "
-           + str(longest_substring_with_k_distinct("cbbebi", 3)))
+    print("Length of the longest substring: "
+          + str(longest_substring_with_k_distinct("araaci", 2)))
+    print("Length of the longest substring: "
+          + str(longest_substring_with_k_distinct("araaci", 1)))
+    print("Length of the longest substring: "
+          + str(longest_substring_with_k_distinct("cbbebi", 3)))
 
 
 main()
