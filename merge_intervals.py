@@ -18,9 +18,10 @@ class Interval:
     def __init__(self, start, end):
         self.start = start
         self.end = end
+        self.interval = [self.start, self.end]
 
     def print_interval(self):
-        print("[" + str(self.start) + ", " + str(self.end) + "]", end='')
+        print(self.interval)
 
 
 def merge(intervals: [Interval]):
