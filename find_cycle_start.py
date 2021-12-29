@@ -77,7 +77,7 @@ def main():
     head.next.next.next.next.next.next = head.next.next.next
     print("LinkedList cycle start: " + str(find_cycle_start(head).value))
 
-    head.next.next.next.next.next.next = head
+    head.next.next.next.next.next.next = head.next
     print("LinkedList cycle start: " + str(find_cycle_start(head).value))
 
 
