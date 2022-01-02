@@ -28,7 +28,7 @@ class TreeNode:
 
 
 def reverse_traversal(root: TreeNode):
-    result = deque()
+    result = []
     if not root:
         return result
 
